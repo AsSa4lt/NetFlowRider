@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35201.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetFlowRider", "NetFlowRider\NetFlowRider.csproj", "{C1095479-DAAD-4B37-B049-BC129B80C7AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1095479-DAAD-4B37-B049-BC129B80C7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1095479-DAAD-4B37-B049-BC129B80C7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1095479-DAAD-4B37-B049-BC129B80C7AD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C1095479-DAAD-4B37-B049-BC129B80C7AD}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{C1095479-DAAD-4B37-B049-BC129B80C7AD}.Debug|ARM64.Build.0 = Debug|ARM64
+		{C1095479-DAAD-4B37-B049-BC129B80C7AD}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{C1095479-DAAD-4B37-B049-BC129B80C7AD}.Debug|x64.ActiveCfg = Debug|x64
+		{C1095479-DAAD-4B37-B049-BC129B80C7AD}.Debug|x64.Build.0 = Debug|x64
+		{C1095479-DAAD-4B37-B049-BC129B80C7AD}.Debug|x64.Deploy.0 = Debug|x64
+		{C1095479-DAAD-4B37-B049-BC129B80C7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1095479-DAAD-4B37-B049-BC129B80C7AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1095479-DAAD-4B37-B049-BC129B80C7AD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C1095479-DAAD-4B37-B049-BC129B80C7AD}.Release|ARM64.ActiveCfg = Release|ARM64
+		{C1095479-DAAD-4B37-B049-BC129B80C7AD}.Release|ARM64.Build.0 = Release|ARM64
+		{C1095479-DAAD-4B37-B049-BC129B80C7AD}.Release|ARM64.Deploy.0 = Release|ARM64
+		{C1095479-DAAD-4B37-B049-BC129B80C7AD}.Release|x64.ActiveCfg = Release|x64
+		{C1095479-DAAD-4B37-B049-BC129B80C7AD}.Release|x64.Build.0 = Release|x64
+		{C1095479-DAAD-4B37-B049-BC129B80C7AD}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2A7B923-B3EB-41FA-93DC-F0B9409B1FE7}
+	EndGlobalSection
+EndGlobal
