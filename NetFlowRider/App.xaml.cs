@@ -1,4 +1,5 @@
 ﻿using NetFlowRider.Network;
+using SharpPcap;
 
 namespace NetFlowRider
 {
@@ -8,6 +9,5 @@ namespace NetFlowRider
             Config.InitConfig();
             MainPage = new AppShell();
         }
-        
     }
 }
