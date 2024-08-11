@@ -23,8 +23,8 @@
 
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
-		<PlatformTarget>x64</PlatformTarget>
-		<RuntimeIdentifiers>win10-x64</RuntimeIdentifiers>
+		<PlatformTarget>ARM64</PlatformTarget>
+		<RuntimeIdentifiers>win10-arm64;win10-x64</RuntimeIdentifiers>
 		<Platforms>AnyCPU;x64;ARM64</Platforms>
 	</PropertyGroup>
 	<ItemGroup>
