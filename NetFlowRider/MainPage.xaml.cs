@@ -23,7 +23,7 @@ namespace NetFlowRider {
 
         private void UpdateAdapters() {
             var stackLayoutAdapters = new StackLayout();
-            List<ICaptureDevice> captureDevices = Config.CaptureDevices;
+            List<NetworkDevice> captureDevices = NetworkDeviceManager.NetworkDevices;
 
             // Create and add checkboxes 
             foreach (var captureDevice in captureDevices) {
@@ -38,7 +38,7 @@ namespace NetFlowRider {
 
                 // Create a Label
                 var label = new Label {
-                    Text = captureDevice.Name,
+                    Text = captureDevice.Name + " " + captureDevice.Address.ToString(),
                     VerticalOptions = LayoutOptions.Center,
                     TextColor = Colors.Black
                 };

@@ -16,5 +16,11 @@ namespace NetFlowRider.Network {
             _catcher = catcher;
         }
 
+        public NetworkDevice(EthCatcherPcap catcher, string name, IPAddress address) {
+            _catcher = catcher;
+            Name = name;
+            Address = address;
+        }
+
     }
 }

@@ -10,7 +10,7 @@ namespace NetFlowRider.Network{
         public static List<ICaptureDevice> CaptureDevices { get; private set; }
 
         public static void InitConfig(){
-            initAdapters();
+            NetworkDeviceManager.Init();
         }
 
         private static void initAdapters() {

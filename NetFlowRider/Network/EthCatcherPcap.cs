@@ -9,12 +9,12 @@ using SharpPcap.LibPcap;
 
 namespace NetFlowRider.Network {
     public class EthCatcherPcap {
-        private readonly PcapDevice _device;
+        private readonly ICaptureDevice _device;
         private readonly ConcurrentQueue<RawCapture> _sendQueue;
         private readonly object _lock = new object();
         private bool _isRunning;
         Thread _senderThread;
-        public EthCatcherPcap(PcapDevice device) {
+        public EthCatcherPcap(ICaptureDevice device) {
             _device = device;
 
             _device.OnPacketArrival += new PacketArrivalEventHandler(OnPacketArrival);
